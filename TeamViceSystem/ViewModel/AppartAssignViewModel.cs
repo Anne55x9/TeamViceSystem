@@ -1,15 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TeamViceSystem.Model;
 
 namespace TeamViceSystem.ViewModel
 {
     public class AppartAssignViewModel: INotifyPropertyChanged
     {
+        public ObservableCollection<AppartmentAssignment> AppartAssignVMList { get; set; }
 
+        public AppartAssignViewModel()
+        {
+
+        }
 
         #region INotifyPropertyChanged Interfaset
         public event PropertyChangedEventHandler PropertyChanged;

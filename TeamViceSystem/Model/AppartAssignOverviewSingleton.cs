@@ -25,7 +25,7 @@ namespace TeamViceSystem.Model
 
         public ObservableCollection<AppartmentAssignment> AppartAssignOverview { get; set; }
 
-        public AppartAssignOverviewSingleton()
+        private AppartAssignOverviewSingleton()
         {
             AppartAssignOverview = new ObservableCollection<AppartmentAssignment>();
         }
