@@ -15,7 +15,7 @@ namespace TeamViceSystem.ViewModel
 
         public AppartAssignViewModel()
         {
-
+            AppartAssignVMList = new ObservableCollection<AppartmentAssignment>();
         }
 
         #region INotifyPropertyChanged Interfaset
