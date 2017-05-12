@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TeamViceSystem.Model;
 
+
 namespace TeamViceSystem.ViewModel
 {
     public class AppartAssignViewModel: INotifyPropertyChanged

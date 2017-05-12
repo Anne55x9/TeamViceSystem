@@ -1,13 +1,20 @@
 ﻿<Page
-    x:Class="TeamViceSystem.AppartAssignOverview"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:TeamViceSystem"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ViewModel="using:TeamViceSystem.ViewModel"
+    x:Class="TeamViceSystem.AppartAssignOverview"
     mc:Ignorable="d">
 
+    <Page.DataContext>
+        <ViewModel:AppartAssignViewModel/>
+    </Page.DataContext>
+
+
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ListView x:Name="listViewVVAssign" HorizontalAlignment="Left" Height="179" Margin="10,85,0,0" VerticalAlignment="Top" Width="340" Header="Listview of appartment assignments:" Background="#FFE6E6DB" />
 
     </Grid>
 </Page>

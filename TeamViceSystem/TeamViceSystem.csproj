@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Facade\FacadeService.cs" />
     <Compile Include="Model\AppartAssignOverviewSingleton.cs" />
     <Compile Include="Model\AppartmentAssignment.cs" />
     <Compile Include="ViewModel\AppartAssignViewModel.cs" />
@@ -135,7 +136,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Common\" />
-    <Folder Include="Facade\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
