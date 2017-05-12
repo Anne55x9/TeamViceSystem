@@ -95,6 +95,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\AppartAssignOverviewSingleton.cs" />
     <Compile Include="Model\AppartmentAssignment.cs" />
     <Compile Include="View\ApparmentAssignment.xaml.cs">
       <DependentUpon>ApparmentAssignment.xaml</DependentUpon>
